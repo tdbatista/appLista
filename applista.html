@@ -7,7 +7,11 @@
                 <li id='novo'><button id='add' onclick="addlista()">Adicionar</button></li>
             </ul>
         </div>
-        <div id='adddiag'></div>
+        <div id='adddiag' style="visibility: hidden;">
+            Nome do site: <input type="text" id="nome" name="nome"><br>
+            Endereço: <input type="text" id="link" name="link"><br>
+            <button onclick="confirmaadd()">OK</button>
+        </div>
         <script src="lista.js"></script>
     </body>
 </html>
